@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>컬그위키 - 편집 <%= name %></title>
+	</head>
+	<body>
+		<h1><%= name %></h1>
+		<a href="/wiki/<%= name %>">문서</a>
+		<form method="post">
+			<textarea name="text" rows="25"><%= text %></textarea>
+			<input type="submit" value="저장">
+		</form>
+	</body>
+</html>
